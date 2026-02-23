@@ -1,26 +1,39 @@
 /**
  * OOPS Banner App
  *
- * UC1: Print OOPS to Console
+ * UC2: Render OOPS as Banner using Print Statements
  *
- * This application prints the literal text "OOPS"
- * to the console as part of the first use case.
- *
- * @author developer
- * @version 1.0
+ * @author YourName
+ * @version 2.0
  */
 public class OOPSBannerApp {
 
-    /**
-     * Entry point of the application
-     *
-     * @param args command-line arguments
-     */
     public static void main(String[] args) {
-        printOOPS();
+        printOOPSBanner();
     }
 
-    static void printOOPS() {
-        System.out.println("OOPS");
+    static void printOOPSBanner() {
+
+        System.out.println(
+            "*********" + "  *********" + "  *********" + "  *********"
+        );
+        System.out.println(
+            "*       *" + "  *       *" + "  *       *" + "  *        "
+        );
+        System.out.println(
+            "*       *" + "  *       *" + "  *       *" + "  *        "
+        );
+        System.out.println(
+            "*       *" + "  *       *" + "  *********" + "  *********"
+        );
+        System.out.println(
+            "*       *" + "  *       *" + "  *          " + "        *  "
+        );
+        System.out.println(
+            "*       *" + "  *       *" + "  *          " + "        *  "
+        );
+        System.out.println(
+            "*********" + "  *********" + "  *          " + "*********"
+        );
     }
 }
